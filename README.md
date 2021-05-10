@@ -52,6 +52,8 @@ Eso te dará una terminal de texto con un shell de la VM y te muestra:
 vagrant@coboldev:~$ _
 ```
 
+Tienes disponible el IDE Sublime Text 3, mediante el mandato: `subl`.
+
 
 Ahora puedes pasar al primer tema, en: [el laboratorio de COBOL](penrmc85/README.md)
 
@@ -72,6 +74,7 @@ vagrant destroy
 Todo lo que dejes en el directorio `/vagrant/` quedará en tu pc host, lo que dejes en tu HOME (`/home/vagrant/`) se perderá cuando destruyas la VM.
 
 
+
 # Referencias
 
 * https://es.wikipedia.org/wiki/GnuCOBOL
@@ -87,5 +90,4 @@ Todo lo que dejes en el directorio `/vagrant/` quedará en tu pc host, lo que de
   * https://sourceforge.net/p/gnucobol/code/HEAD/tree/external-doc/guide/PDFs/gnucobpg-a4.pdf?format=raw GnuCOBOL 3.1 (dev) Programmers Guide (A4).pdf
   * https://sourceforge.net/p/gnucobol/code/HEAD/tree/external-doc/guide/PDFs/gnucobqr-a4.pdf?format=raw GnuCOBOL 3.1 Quick Reference (A4).pdf
   * https://sourceforge.net/p/gnucobol/code/HEAD/tree/external-doc/guide/PDFs/gnucobsp-a4.pdf?format=raw GnuCOBOL 3.1 Sample Programs (A4).pdf
-
 

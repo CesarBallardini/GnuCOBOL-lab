@@ -111,7 +111,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       end
     end
 
-    config.vm.provision "actualiza", type: "shell" do |s|  # http://foo-o-rama.com/vagrant--stdin-is-not-a-tty--fix.html
+    config.vm.provision "actualiza", type: "shell" do |s|
         s.privileged = false
         s.inline = <<-SHELL
           export DEBIAN_FRONTEND=noninteractive
@@ -135,6 +135,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       ansible.verbose = "vv"
       ansible.become= false
     end
+
+    config.vm.provision "instala_sublime", type: "shell", privileged: false, path: "provision/instala-sublime-text-3.sh"
 
 #    config.vm.provision "ansible-test", type: :ansible do |ansible|
 #      ansible.playbook = "provision/ansible/test.yml"
