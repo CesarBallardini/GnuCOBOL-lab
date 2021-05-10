@@ -17,15 +17,15 @@ Binarios:
  - /usr/local/bin/cobcrun: runtime
 
 Compilar y generar ejecutable
-  cobc -x /vagrant/src/hello.cbl
+  cobc -x /vagrant/hello/hello.cbl
   ./hello
 
 Compilar módulos dinámicos
-  cobc -m /vagrant/src/hello.cbl
+  cobc -m /vagrant/hello/hello.cbl
   cobcrun hello
 
 COBOL scripts
-   /vagrant/src/hello.sh
+   /vagrant/hello/hello.sh
 
 ------------------------------------------------------
 MSG
