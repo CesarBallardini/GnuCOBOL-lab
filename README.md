@@ -30,7 +30,8 @@ git clone https://github.com/CesarBallardini/GnuCOBOL-lab
 cd GnuCOBOL-lab/
 ansible-galaxy install -r requirements.yml --roles-path=provision/ansible/roles/ --force
 
-vagrant up
+vagrant up     # enciende, actualiza y hace la provisión del software solicitado
+vagrant reload # para hacer efectiva la actualización del sistema que se realizó
 ```
 
 
@@ -44,6 +45,13 @@ Puedes ingresar a esa VM si escribes:
 ```bash
 vagrant ssh
 ```
+
+Eso te dará una terminal de texto con un shell de la VM y te muestra:
+
+```text
+vagrant@coboldev:~$ _
+```
+
 
 Ahora puedes pasar al primer tema, en: [el laboratorio de COBOL](penrmc85/README.md)
 
