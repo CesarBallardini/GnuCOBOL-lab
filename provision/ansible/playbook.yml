@@ -1,0 +1,9 @@
+- hosts: all
+
+  vars:
+     gnu_cobol_version: 3.1.2
+
+  roles:
+    - { role: gnu-cobol, become: true }
+
+

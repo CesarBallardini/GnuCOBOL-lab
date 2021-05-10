@@ -1,0 +1,8 @@
+# - src: ChristopherDavenport.gnu-cobol
+#   name: gnu-cobol
+
+- src:  https://github.com/CesarBallardini/ansible-role-gnu-cobol.git
+  version: debian-buster64
+  scm: git
+  name: gnu-cobol
+
