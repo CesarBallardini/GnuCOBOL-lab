@@ -73,6 +73,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     srv.vm.network "private_network", ip: "192.168.33.10"
     srv.vm.box_check_update = false
     srv.ssh.forward_agent = true
+    srv.ssh.forward_x11 = true
     srv.vm.hostname = HOSTNAME
 
     if Vagrant.has_plugin?("vagrant-hostmanager")
