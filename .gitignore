@@ -2,3 +2,7 @@ tmp/
 .vagrant/
 provision/ansible/roles/
 hello/hello
+hello/bin/
+ubuntu-bionic-18.04-cloudimg-console.log
+ubuntu-xenial-16.04-cloudimg-console.log
+

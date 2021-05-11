@@ -68,7 +68,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
  config.vm.define HOSTNAME do |srv|
 
-    srv.vm.box = "ubuntu/focal64"
+    #srv.vm.box = "ubuntu/focal64"
+    srv.vm.box = "ubuntu/bionic64"
+    #srv.vm.box = "ubuntu/xenial64"
+    #srv.vm.box = "ubuntu/xenial32"
 
     srv.vm.network "private_network", ip: "192.168.33.10"
     srv.vm.box_check_update = false
@@ -136,6 +139,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       ansible.become= false
     end
 
+    config.vm.provision "instala_opencobolide", type: "shell", privileged: false, path: "provision/instala-opencobol-ide.sh"
     config.vm.provision "instala_sublime", type: "shell", privileged: false, path: "provision/instala-sublime-text-3.sh"
 
 #    config.vm.provision "ansible-test", type: :ansible do |ansible|

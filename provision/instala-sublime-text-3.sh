@@ -50,12 +50,16 @@ EOF
 ##
 # main
 #
+if [ "$(lsb_release  -cs)" = "xenial" ] 
+then
+  echo "Ubuntu 16.04 Xenial no dispone de snap para instalar paquetes"
+  exit 0
+fi
 
 elimina_personalizaciones
 instala_sublime
 instala_package_control
 instala_plugins
-
 
 ##
 # Referencias

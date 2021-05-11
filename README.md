@@ -73,6 +73,50 @@ vagrant destroy
 
 Todo lo que dejes en el directorio `/vagrant/` quedará en tu pc host, lo que dejes en tu HOME (`/home/vagrant/`) se perderá cuando destruyas la VM.
 
+# OpenCobol IDE
+
+Hasta 2017 estuvo en desarrollo y mantenimiento esta IDE.  En este momento está abandonada.
+
+En las versiones más modernas de las distribuciones no funciona correctamente, pues ya no
+se satisfacen sus dependencias.
+
+Hemos hecho tres programas auxiliares para su instalación, y en la siguiente tabla 
+se puede apreciar en cuál distro funciona cada uno.
+
+* `pip_install_36`: instala mediante `pip` con `python3.6`
+* `pip_install_37`: instala mediante `pip` con `python3.7`
+* `deb_install`: utiliza los paquetes DEB del sistema operativo.
+
+
+|                     | `pip_install_36` | `pip_install_37` | `deb_install`|
+|---------------------|------------------|------------------|--------------|
+| Ubuntu 20.04 focal  |       no         |       no         |      no      |
+| Ubuntu 18.04 bionic |       si         |       si         |      si      |
+| Ubuntu 16.04 xenial |       no         |       no         |      si      |
+
+
+Se puede apreciar que ninguna de las alternativas sirve para instalar OpenCobol IDE sobre Ubuntu 20.04.
+
+La instalación mediante paquetes DEB es apropiada en las versiones 18.04 y 16.04 de Ubuntu.  
+
+Ubuntu 16.04 (Xenial) se verificó tanto en 64 bits como en 32 bits.  Esta distro no dispone de `snap` y por lo tanto no le hemos instalado SublimeText3.
+
+
+Una opción que tiene ambos editores es Ubuntu 18.04 Bionic.  Tanto OpenCobol IDE como SublimeText3 pueden instalarse en esa distro.  Bionic sólo
+está disponible en la arquitectura de 64 bits.
+
+
+El cambio de sistema operativo en la VM se hace modificando en el archivo `Vagrantfile` y descomentando una sola
+de las líneas que dicen:
+
+```ruby
+    #srv.vm.box = "ubuntu/focal64"
+    srv.vm.box = "ubuntu/bionic64"
+    #srv.vm.box = "ubuntu/xenial64"
+    #srv.vm.box = "ubuntu/xenial32"
+```
+
+La VM de 32 bits puede correr con mejor performance en computadores más antiguos.
 
 
 # Referencias
