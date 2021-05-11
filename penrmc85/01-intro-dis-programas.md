@@ -65,13 +65,13 @@ Las expresiones se clasifican de acuerdo al tipo del resultado en:
 
 Operadores:
 
-| Tipo          | Símbolo | Nombre | Función |
-|---------------|---------|--------|---------|
-| Aritméticos   | + -     | suma, diferencia producto, división, potencia | |
-| Alfanuméricos | +       | Concatenación | |
-| Relacionales  | = <> < <= > >= | igual distinto menor ... | |
-| Lógicos       | AND OR NOT | conjunción, disyunción inclusiva, negación | |
-| Paréntesis    | ( )    |  | |
+| Tipo          | Símbolo | Nombre |
+|---------------|---------|--------|
+| Aritméticos   | + -     | suma, diferencia producto, división, potencia |
+| Alfanuméricos | +       | Concatenación |
+| Relacionales  | = <> < <= > >= | igual distinto menor ... |
+| Lógicos       | AND OR NOT | conjunción, disyunción inclusiva, negación |
+| Paréntesis    | ( )    |  |
 
 
 
