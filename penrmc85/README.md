@@ -37,6 +37,7 @@ Basado en Programación estructurada en RM/COBOL 85.
 
 ## Bibliografía
 
-"Programación estructurada en RM/COBOL-85", de Fernando García Pérez,
-Almudena Cerro Somolino y José Manuel Diez Perla; McGraw-Hill, 1989.
+Programación estructurada en RM/COBOL-85<br>
+Fernando García Pérez, Almudena Cerro Somolino y José Manuel Diez Perla<br>
+McGraw-Hill, 1990<br>
 
