@@ -10,7 +10,7 @@ disponga de un entorno completo para desarrollar aplicaciones con GnuCOBOL.
 Daremos algunos tips para compilar código RM COBOL 85.
 
 Seguiremos los ejemplos y pasos del libro "Programación estructurada en RM/COBOL-85", de Fernando García Pérez,
-Almudena Cerro Somolino y José Manuel Diez Perla; McGraw-Hill, 1989.
+Almudena Cerro Somolino y José Manuel Diez Perla; McGraw-Hill, 1990.
 
 Cada capítulo del libro se estudiará en un directorio específico.
 
