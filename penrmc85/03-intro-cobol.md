@@ -190,11 +190,11 @@ Es indiferente el uso de singular o plural en el nombre de la constante figurati
 | constante figurativa | Descripción |
 |----------------------|-------------|
 | `ZERO`<br>`ZEROS`<br>`ZEROES` | Es el valor cero. Se puede usar como valor numérico en operaciones aritméticas o como literal alfanumérico. |
-| `SPACE`, `SPACES` | Uno o más espacios en blanco. |
-| `QUOTE`, `QUOTES` | Una o más comillas.  Como los literales alfanuméricos se ponen entre comillas, se necesita esta constante si se quiere incluirla en un literal. |
+| `SPACE`<br>`SPACES` | Uno o más espacios en blanco. |
+| `QUOTE`<br>`QUOTES` | Una o más comillas.  Como los literales alfanuméricos se ponen entre comillas, se necesita esta constante si se quiere incluirla en un literal. |
 | `ALL "Literal"`   | genera tantas apariciones del literal especificado como longitud tenga el campo. | 
-| `HIGH-VALUE`, `HIGH-VALUES` | el *mayor valor* posible para un dato numerico o alfanumérico, o sea, todo otro dato es menor a él. |
-| `LOW-VALUE`, `LOW-VALUES` | el *menor valor* posible para un dato numerico o alfanumérico, o sea, todo otro dato es mayor a él. |
+| `HIGH-VALUE`<br>`HIGH-VALUES` | el *mayor valor* posible para un dato numerico o alfanumérico, o sea, todo otro dato es menor a él. |
+| `LOW-VALUE`<br>`LOW-VALUES` | el *menor valor* posible para un dato numerico o alfanumérico, o sea, todo otro dato es mayor a él. |
 
 
 ### 3.6.2. Verbos, instrucciones y cláusulas
