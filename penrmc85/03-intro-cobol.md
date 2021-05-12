@@ -189,7 +189,7 @@ Es indiferente el uso de singular o plural en el nombre de la constante figurati
 
 | constante figurativa | Descripción |
 |----------------------|-------------|
-| `ZERO`, `ZEROS`, `ZEROES` | Es el valor cero. Se puede usar como valor numérico en operaciones aritméticas o como literal alfanumérico. |
+| `ZERO`<br>`ZEROS`<br>`ZEROES` | Es el valor cero. Se puede usar como valor numérico en operaciones aritméticas o como literal alfanumérico. |
 | `SPACE`, `SPACES` | Uno o más espacios en blanco. |
 | `QUOTE`, `QUOTES` | Una o más comillas.  Como los literales alfanuméricos se ponen entre comillas, se necesita esta constante si se quiere incluirla en un literal. |
 | `ALL "Literal"`   | genera tantas apariciones del literal especificado como longitud tenga el campo. | 
