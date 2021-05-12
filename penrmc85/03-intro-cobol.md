@@ -15,13 +15,6 @@ TODO
 Todo programa COBOl está compuesto por cuatro grandes partes, denominadas **divisiones**.
 Las divisiones se deben escribir todas, y en el orden especificado:
 
-```cobol
-IDENTIFICATION DIVISION
-ENVIRONMENT DIVISION
-DATA DIVISION
-PRECEDURE DIVISION
-```
-
 * `IDENTIFICATION DIVISION`: identifica al programa con su nombre, autor, fecha y restricciones de uso.
 * `ENVIRONMENT DIVISION`: especifica las características del computador y los periféricos usados.
 * `DATA DIVISION`: se definen los datos usados por el programa, indicando en cada caso el nombre, tipo y tamaño.
