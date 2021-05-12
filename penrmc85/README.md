@@ -15,7 +15,7 @@ Basado en Programación estructurada en RM/COBOL 85.
 ## Unidad 3. Ficheros secuenciales
 
 * Capítulo 5 - Estructuras de datos externas: archivos. Tipos de archivos
-* Capítulo 6 - Instrucciones COBOL para archivos secuenciales
+* [Capítulo 6 - Instrucciones COBOL para archivos secuenciales](06-estructuras-externas.md)
 * Capítulo 7 - Fusión y actualización de archivos secuenciales
 * Capítulo 8 - Actualización general de archivos secuenciales
 * Capítulo 9 - Informes impresos
