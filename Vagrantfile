@@ -142,7 +142,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.provision "instala_opencobolide", type: "shell", privileged: false, path: "provision/instala-opencobol-ide.sh"
     config.vm.provision "instala_sublime", type: "shell", privileged: false, path: "provision/instala-sublime-text-3.sh"
-    #config.vm.provision "instala_notepad-plus-plus", type: "shell", privileged: false, path: "provision/instala-notepad-plus-plus.sh"
+    config.vm.provision "instala_notepad-plus-plus", type: "shell", privileged: false, path: "provision/instala-notepad-plus-plus.sh"
 
 #    config.vm.provision "ansible-test", type: :ansible do |ansible|
 #      ansible.playbook = "provision/ansible/test.yml"
