@@ -10,7 +10,7 @@ Basado en Programación estructurada en RM/COBOL 85.
 ## Unidad 2. Lenguaje COBOL
 
 * [Capítulo 3 - Introducción a los lenguajes de programación.  Lenguaje COBOL](03-intro-cobol.md)
-* Capítulo 4 - Núcleo del lenguaje COBOL. Instrucciones básicas.
+* [Capítulo 4 - Núcleo del lenguaje COBOL. Instrucciones básicas](04-nucleo-cobol.md)
 
 ## Unidad 3. Ficheros secuenciales
 
