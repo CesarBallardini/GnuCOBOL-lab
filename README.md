@@ -135,3 +135,7 @@ La VM de 32 bits puede correr con mejor performance en computadores más antiguo
   * https://sourceforge.net/p/gnucobol/code/HEAD/tree/external-doc/guide/PDFs/gnucobqr-a4.pdf?format=raw GnuCOBOL 3.1 Quick Reference (A4).pdf
   * https://sourceforge.net/p/gnucobol/code/HEAD/tree/external-doc/guide/PDFs/gnucobsp-a4.pdf?format=raw GnuCOBOL 3.1 Sample Programs (A4).pdf
 
+* https://riptutorial.com/Download/cobol.pdf Tutorial COBOL Creative Commons BY-SA
+* https://tug.org/TUGboat/tb10-4/tb26mcclure.pdf Diagramas de sintaxis COBOL en TeX
+* https://gnucobol.sourceforge.io/faq/index.html#bubble-cobol-tcl diagramas de burbujas para la sintaxis de GnuCOBOL, escrito en Tcl
+* https://github.com/petli/cobol-sharp This is a tool to extract code structure from COBOL written according to mid-80's best practices and revisualize it as more modern code structures. The purpose is to make it easier to analyze legacy code to understand what it does, extract the core business logic, and then reimplement it in modern languages.
