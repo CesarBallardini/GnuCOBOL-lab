@@ -8,7 +8,7 @@ Vamos a mostrar los tipos de datos elementales que existen en COBOL, en la panta
 
 El más simple de todos los programas es el "Hello, World!", que sólo muestra una cadena de caracteres y termina:
 
-[hello.cbl](01-imprime-literal/hello.cbl)
+[hello.cbl](hello.cbl)
 
 # ¿Qué tenemos aquí?
 
