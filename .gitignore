@@ -3,6 +3,11 @@ tmp/
 provision/ansible/roles/
 hello/hello
 hello/bin/
+
+cobol-mediante-ejemplos/*/*.o
+cobol-mediante-ejemplos/01-imprime-literal/hello
+
+
 ubuntu-bionic-18.04-cloudimg-console.log
 ubuntu-xenial-16.04-cloudimg-console.log
 

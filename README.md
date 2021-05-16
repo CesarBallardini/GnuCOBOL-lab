@@ -55,7 +55,10 @@ vagrant@coboldev:~$ _
 Tienes disponible el IDE Sublime Text 3, mediante el mandato: `subl`.
 
 
-Ahora puedes pasar al primer tema, en: [el laboratorio de COBOL](penrmc85/README.md)
+Ahora puedes pasar al primer tema, en: [el laboratorio de COBOL](penrmc85/README.md).
+
+Si prefieres aprender practicando con programas, prueba [COBOL mediante ejemplos](cobol-mediante-ejemplos/README.md).
+
 
 Cuando deseas apagar la VM, corre:
 
