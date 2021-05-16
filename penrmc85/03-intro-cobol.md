@@ -273,7 +273,7 @@ Ejemplo:
 ```cobol
        CONFIGURATION SECTION.
            SOURCE-COMPUTER. nombre-computadora.
-           OBJECT COMPUTER. nombre-computadora.
+           OBJECT-COMPUTER. nombre-computadora.
            SPECIAL-NAMES.   DECIMAL-POINT IS COMMA.
 ```
 
