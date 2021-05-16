@@ -27,6 +27,10 @@ Compilar módulos dinámicos
 COBOL scripts
    /vagrant/hello/hello.sh
 
+IDE:
+  opencobolide: la mejor, aunque ya esta sin mantenimiento
+  subl: SublimeText3 con el plugin para COBOL
+
 ------------------------------------------------------
 MSG
 
