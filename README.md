@@ -144,6 +144,9 @@ La VM de 32 bits puede correr con mejor performance en computadores más antiguo
   * https://www.newthinktank.com/2020/04/learn-cobol-one-video/
   * https://www.youtube.com/watch?v=TBs7HXI76yU COBOL Tutorial : Learn COBOL in One Video
 * http://libgen.is/search.php?req=Beginning+COBOL+for+Programmers&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def Beginning COBOL for Programmers
+* https://itoo.dev/p/lenguaje-cobol-desde-0 Lenguaje COBOL desde 0
+* https://www.youtube.com/playlist?list=PLVzwufPir357KDgETN3AoFFRbrWnAInFu Cobol y PowerCOBOL
+
 
 * https://tug.org/TUGboat/tb10-4/tb26mcclure.pdf Diagramas de sintaxis COBOL en TeX
 * https://gnucobol.sourceforge.io/faq/index.html#bubble-cobol-tcl diagramas de burbujas para la sintaxis de GnuCOBOL, escrito en Tcl
